@@ -1,0 +1,57 @@
+/* google fornt  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* bootstrap icon cdn */
+/* Option 2: Import via CSS */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+/* universal secletor */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+     font-family: "Roboto", sans-serif;
+     padding: 2px;
+}
+/* mainSection */
+#mainSection{
+    width: 380px;
+    
+    margin: 2px auto;
+    border: 2px solid rebeccapurple;
+    border-radius: 10px;
+}
+#userInfo{
+    
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#userInfo img{
+    width: 70px;
+    height: 50px;
+    
+}
+#profileInfo{
+    
+    
+    
+}
+#profileInfo h2{
+    font-size: 14px;
+}
+#profileInfo p{
+    font-size: 13px;
+}
+#instaPost img{
+    width: 350px;
+    height: 220px;
+    border-radius: 10px;
+}
+#instaPost p{
+    font-size: 13px;
+}
+#postOption{
+    display: flex;
+    justify-content: space-between;
+    color: green;
+}
